@@ -26,7 +26,7 @@ SECRET_KEY = 'rgf@8icjzi4$l8_wcy&je_q!fmuvgpsg)#pvgoh)k-$(k8=#gg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['benlyazid.pythonanywhere.com']
+ALLOWED_HOSTS = ['benlyazid.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
