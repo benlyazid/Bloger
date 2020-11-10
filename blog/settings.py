@@ -12,10 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-<<<<<<< HEAD
 
-=======
->>>>>>> dbc7d06b1af4cda6aa86b91cbf8b74bca083f815
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -81,11 +78,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-<<<<<<< HEAD
-        'NAME': os.path.join(BASE_DIR,'db.sqlite3'),
-=======
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
->>>>>>> dbc7d06b1af4cda6aa86b91cbf8b74bca083f815
     }
 }
 
